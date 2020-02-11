@@ -1,0 +1,36 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks'
+import Text from '@components/Typography'
+import Container from '@components/Container'
+
+<Meta title="Typography" component={Text} />
+
+# Typography
+
+Responsive typography component
+
+<Preview>
+  <Story name="All typography" height="300px">
+    <Container mt={6}>
+      <Text variant="h1" mb="5px">
+        H1
+      </Text>
+      <Text variant="h2" mb="5px">
+        h2
+      </Text>
+      <Text variant="h3" mb="5px">
+        h3
+      </Text>
+      <Text variant="h4" mb="5px">
+        h3
+      </Text>
+      <Text variant="caption" color="green" mb="5px">
+        caption
+      </Text>
+      <Text>Paragraph</Text>
+    </Container>
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={Text} />

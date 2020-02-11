@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OpeningHours /> should match the snapshot 1`] = `
+.c3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.c9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: #A1A2A4;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 16px;
+  color: #5BCB02;
+  margin-left: 8px;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 25px 25px 30px;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #696a6c;
+  padding-bottom: 12px;
+  margin-bottom: 2px;
+}
+
+.c2 {
+  width: 20px;
+  height: 20px;
+  color: #A1A2A4;
+}
+
+.c4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 8px 0;
+}
+
+.c7 {
+  text-transform: capitalize;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 345px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <svg
+      className="c2"
+      height="1em"
+      viewBox="15 20 70 60"
+      width="1em"
+    >
+      <path
+        d="M50 17c-18.202 0-33 14.798-33 33 0 18.202 14.798 33 33 33 18.202 0 33-14.798 33-33 0-18.202-14.798-33-33-33zm0 4c16.04 0 29 12.96 29 29S66.04 79 50 79 21 66.04 21 50s12.96-29 29-29zm0 8a2 2 0 0 0-2 2v19c0 .552.232 1.044.594 1.406l12 12.032a2.018 2.018 0 0 0 2.843 0 2.019 2.019 0 0 0 0-2.844L52 49.188V31a2 2 0 0 0-2-2z"
+        fill="currentColor"
+      />
+    </svg>
+    <h1
+      className="c3"
+    >
+      Opening hours
+    </h1>
+  </div>
+  <div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 c7"
+        >
+          monday
+        </div>
+      </div>
+      <div
+        className="c8"
+      >
+        <div
+          className="c9"
+          color="grey3"
+        >
+          Closed
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 c7"
+        >
+          tuesday
+        </div>
+        <h5
+          className="c10"
+          color="green"
+        >
+          today
+        </h5>
+      </div>
+      <div
+        className="c8"
+      >
+        <div
+          className="c9"
+          color="grey3"
+        >
+          Closed
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 c7"
+        >
+          wednesday
+        </div>
+      </div>
+      <div
+        className="c8"
+      >
+        <div
+          className="c9"
+          color="grey3"
+        >
+          Closed
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 c7"
+        >
+          thursday
+        </div>
+      </div>
+      <div
+        className="c8"
+      >
+        <div
+          className="c9"
+          color="grey3"
+        >
+          Closed
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 c7"
+        >
+          friday
+        </div>
+      </div>
+      <div
+        className="c8"
+      >
+        <div
+          className="c11"
+        >
+          <span>
+            <span>
+              6 PM - 1 AM
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6 c7"
+        >
+          saturday
+        </div>
+      </div>
+      <div
+        className="c8"
+      >
+        <div
+          className="c11"
+        >
+          <span>
+            <span>
+              9 AM - 11 AM
+            </span>
+            <span>
+              , 
+            </span>
+          </span>
+          <span>
+            <span>
+              4 PM - 11:59 PM
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

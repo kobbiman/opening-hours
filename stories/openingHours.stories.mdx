@@ -1,0 +1,25 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks'
+import OpeningHoursCard from '@components/OpeningHoursCard'
+import Container from '@components/Container'
+import { Flex } from 'rebass/styled-components'
+import { mockFormattedOpeningHours } from '__mocks__/helpers'
+
+<Meta title="OpeningHoursCard" component={OpeningHoursCard} />
+
+# Opening Hours Component
+
+Opening hours component
+
+<Preview>
+  <Story name="OpeningHoursCard">
+    <Container bg="grey2" mt={6} mb="40px">
+      <Flex py="60px" justifyContent="center" alignItems="center">
+        <OpeningHoursCard openingHours={mockFormattedOpeningHours} />
+      </Flex>
+    </Container>
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={OpeningHoursCard} />

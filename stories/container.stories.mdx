@@ -1,0 +1,24 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks'
+import Container from '@components/Container'
+import Text from '@components/Typography'
+import { Flex } from 'rebass/styled-components'
+
+<Meta title="Container" component={Container} />
+
+# Container
+
+Container component
+
+<Preview>
+  <Story name="container" height="400px">
+    <Container bg="grey2" mt={6}>
+      <Flex height="200px" justifyContent="center" alignItems="center">
+        <Text variant="h1">Container</Text>
+      </Flex>
+    </Container>
+  </Story>
+</Preview>
+
+## Props
+
+<Props of={Container} />

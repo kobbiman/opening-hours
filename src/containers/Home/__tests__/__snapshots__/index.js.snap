@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render as expected with passed component and props 1`] = `
+.c5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 12px;
+}
+
+.c8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.c11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: #A1A2A4;
+}
+
+.c12 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 16px;
+  color: #5BCB02;
+  margin-left: 8px;
+}
+
+.c13 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.c7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 25px 25px 30px;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid #696a6c;
+  padding-bottom: 12px;
+  margin-bottom: 2px;
+}
+
+.c4 {
+  width: 20px;
+  height: 20px;
+  color: #A1A2A4;
+}
+
+.c6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 8px 0;
+}
+
+.c9 {
+  text-transform: capitalize;
+}
+
+.c0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
+
+.c1 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 345px;
+  }
+}
+
+@media (min-width:576px) {
+  .c0 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .c0 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    max-width: 1264px;
+  }
+}
+
+<div
+  class="c0 c1"
+  width="100%"
+>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <svg
+        class="c4"
+        height="1em"
+        viewBox="15 20 70 60"
+        width="1em"
+      >
+        <path
+          d="M50 17c-18.202 0-33 14.798-33 33 0 18.202 14.798 33 33 33 18.202 0 33-14.798 33-33 0-18.202-14.798-33-33-33zm0 4c16.04 0 29 12.96 29 29S66.04 79 50 79 21 66.04 21 50s12.96-29 29-29zm0 8a2 2 0 0 0-2 2v19c0 .552.232 1.044.594 1.406l12 12.032a2.018 2.018 0 0 0 2.843 0 2.019 2.019 0 0 0 0-2.844L52 49.188V31a2 2 0 0 0-2-2z"
+          fill="currentColor"
+        />
+      </svg>
+      <h1
+        class="c5"
+      >
+        Opening hours
+      </h1>
+    </div>
+    <div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8 c9"
+          >
+            monday
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c11"
+            color="grey3"
+          >
+            Closed
+          </div>
+        </div>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8 c9"
+          >
+            tuesday
+          </div>
+          <h5
+            class="c12"
+            color="green"
+          >
+            today
+          </h5>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c11"
+            color="grey3"
+          >
+            Closed
+          </div>
+        </div>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8 c9"
+          >
+            wednesday
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c11"
+            color="grey3"
+          >
+            Closed
+          </div>
+        </div>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8 c9"
+          >
+            thursday
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c11"
+            color="grey3"
+          >
+            Closed
+          </div>
+        </div>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8 c9"
+          >
+            friday
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c13"
+          >
+            <span>
+              <span>
+                6 PM - 1 AM
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c6"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            class="c8 c9"
+          >
+            saturday
+          </div>
+        </div>
+        <div
+          class="c10"
+        >
+          <div
+            class="c13"
+          >
+            <span>
+              <span>
+                9 AM - 11 AM
+              </span>
+              <span>
+                , 
+              </span>
+            </span>
+            <span>
+              <span>
+                4 PM - 11:59 PM
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
