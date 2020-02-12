@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import apiClient from '@lib/apiClient'
 import { formatOpeningHours, TuppleChecker } from '@lib/helpers'
-import OpeningHoursCard from '@components/OpeningHoursCard'
+import OpeningHours from '@components/OpeningHours'
 
 import { PageWrapper } from './elements'
 
 export const Home = ({ openingHours }) => {
   return (
     <PageWrapper>
-      <OpeningHoursCard openingHours={openingHours} />
+      <OpeningHours openingHours={openingHours} />
     </PageWrapper>
   )
 }

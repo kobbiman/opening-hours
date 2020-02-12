@@ -23,7 +23,7 @@ const Day = ({ day }) => {
         <DayTitle variant="h3">{key}</DayTitle>
         {weekdayName === key && <Today />}
       </Flex>
-      <Flex alignItems="center" ml={3}>
+      <Flex alignItems="center" ml="10px">
         <Hour value={value} />
       </Flex>
     </DayWrapper>

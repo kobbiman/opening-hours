@@ -9,7 +9,7 @@ export const Wrapper = styled(Box)`
   background-color: ${({ theme }) => theme.colors.white};
   box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  padding: 25px 25px 30px;
+  padding: 30px;
   width: 100%;
 
   ${media.tablet`
@@ -22,12 +22,11 @@ export const Title = styled.div`
   align-items: center;
   border-bottom: 2px solid ${({ theme }) => theme.colors.grey4};
   padding-bottom: 12px;
-  margin-bottom: 2px;
 `
 
 export const ClockIcon = styled(Clock)`
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   color: ${({ theme }) => theme.colors.grey3};
 `
 

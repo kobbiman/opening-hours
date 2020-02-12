@@ -42,6 +42,14 @@ Open the app
 
 [http://localhost:3000](http://localhost:3000)
 
+Test
+
+```bash
+yarn test
+# or
+npm run test
+```
+
 Production
 
 ```bash

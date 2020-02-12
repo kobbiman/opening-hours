@@ -67,7 +67,7 @@ exports[`<OpeningHours /> should match the snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-left: 12px;
+  margin-left: 10px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -193,12 +193,6 @@ exports[`<OpeningHours /> should match the snapshot 1`] = `
         >
           tuesday
         </div>
-        <h5
-          className="c10"
-          color="green"
-        >
-          today
-        </h5>
       </div>
       <div
         className="c8"
@@ -222,6 +216,12 @@ exports[`<OpeningHours /> should match the snapshot 1`] = `
         >
           wednesday
         </div>
+        <h5
+          className="c10"
+          color="green"
+        >
+          today
+        </h5>
       </div>
       <div
         className="c8"
