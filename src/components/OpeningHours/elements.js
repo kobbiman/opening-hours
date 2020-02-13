@@ -13,7 +13,7 @@ export const Wrapper = styled(Box)`
   width: 100%;
 
   ${media.tablet`
-    width: 345px;
+    width: 355px;
   `};
 `
 
