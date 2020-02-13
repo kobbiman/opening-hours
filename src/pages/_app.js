@@ -1,5 +1,4 @@
 import React from 'react'
-import NextHead from 'next/head'
 import PropTypes from 'prop-types'
 import { ThemeProvider } from 'styled-components'
 import { Normalize } from 'styled-normalize'
