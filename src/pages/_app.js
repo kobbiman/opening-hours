@@ -10,9 +10,6 @@ const AppRoot = props => {
   const { Component, pageProps } = props
   return (
     <ThemeProvider theme={theme}>
-      <NextHead>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet" />
-      </NextHead>
       <Normalize />
       <GlobalStyle />
       <Layout>
